@@ -333,6 +333,8 @@ scene.setBackgroundImage(img`
     ................................................................................................................................................................
     ................................................................................................................................................................
     `)
+music.playMelody("F F E E F F E E ", 150)
+music.playMelody("A B C5 - - - - - ", 306)
 prompt()
 effects.confetti.endScreenEffect()
 scene.setBackgroundImage(img`
@@ -550,6 +552,8 @@ game.setDialogFrame(img`
     .....aaa............dddd............dddd...........33.......33....
     ..................................................................
     `)
+game.showLongText("Velkommen til premieren på det store PÅSKESPILLET!         I dag skal vi samle hundre millioner påskeegg", DialogLayout.Bottom)
+game.showLongText("og vi gleder oss veldig til å vise alt det kule vi har fått til.", DialogLayout.Bottom)
 game.showLongText("Kom og se!", DialogLayout.Bottom)
 pause(1000)
 screenwipe()
