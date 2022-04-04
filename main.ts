@@ -61,7 +61,7 @@ function endscreen () {
         `)
     pause(1000)
     game.showLongText("Hjelp, en skurk har stjålet alt snopet og ødelagt spillet vårt! Kan du hjelpe oss å reparere det og se etter spor?", DialogLayout.Full)
-    music.bigCrash.play()
+    music.wawawawaa.play()
 }
 function screenwipe () {
     mySprite.destroy()
